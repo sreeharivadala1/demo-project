@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM hshar/webapp
 
-COPY index.html /var/www/html/
+ADD . /var/www/html/
 
